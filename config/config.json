@@ -1,0 +1,17 @@
+{
+    "sql_server": {
+        "server": "localhost",
+        "database": "YourDatabaseName",
+        "username": "your_username",
+        "password": "your_password",
+        "port": 1433
+    },
+    "backup": {
+        "backup_directory": "/path/to/backup/directory",
+        "backup_retention_days": 7
+    },
+    "recovery": {
+        "recovery_directory": "/path/to/recovery/directory"
+    }
+}
+
